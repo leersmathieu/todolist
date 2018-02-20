@@ -1,3 +1,13 @@
 body {
     background-color: beige;
+    display:grid;
+    grid-template-rows: 35% 30% 30%;
+    grid-template-columns: 35% 30% 35%;
+    margin-left: 750px;
+    margin-top:200px;
+}
+
+footer.tache {
+    grid-row:1;
+    grid-column:2;
 }

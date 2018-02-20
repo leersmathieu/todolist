@@ -1,3 +1,15 @@
+<?php
+
+$jsonURL="todo.json";
+$jsonReceived = file_get_contents($jsonURL);
+$datafile =  [$date,$childName, $teacherName, $reason];
+$log = json_decode($dataReceived) ;
+$log[] = $datafile;
+$justifResult = json_encode($log);
+file_put_contents($jsonURL, $justifResult);
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,6 +22,10 @@
 <body>
     <div class="page">
         <section class="afaire">
+            <form action="" method="post" name="formafaire">
+                <input type="checkbox" name="choix" value="" /><label for="choix">Course</label>
+                
+            </form>
         </section>
 
         <section class="archive">

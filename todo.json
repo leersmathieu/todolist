@@ -14,5 +14,9 @@
     {
         "nomtache": "piscine",
         "fin": true
+    },
+    {
+        "nomtache": "Coder",
+        "fin": false
     }
 ]

@@ -6,7 +6,7 @@ $jsonReceived = file_get_contents($jsonURL); //prendre le fichier
 
 $log = json_decode($jsonReceived, true); //décoder ( true = dans un tableau )
 
-
+// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ \\
 
 if (isset($_POST['ajouter']) AND end($log)['nomtache'] != $_POST['tache']){ //Si on appuie sur le boutton ajouter...
 
@@ -60,7 +60,7 @@ if (isset($_POST['boutton'])){ //si j'enregistre ( je check la case )
     <body>
         <div class="page">
             <section class="afaire">
-                <fieldset>
+                <fieldset> 
                     <legend><strong>A faire</strong></legend>
                     <form action="formulaire.php" method="post" name="formafaire">
                         <?php
@@ -94,16 +94,15 @@ if (isset($_POST['boutton'])){ //si j'enregistre ( je check la case )
                     </form>
                 </fieldset>
             </section>
-
             <footer class="tache">
-            <fieldset>
-                <legend><strong>Ajouter une tâche</strong></legend>
-                <form class="" action="formulaire.php" method="post">
-                    <!-- <label for="tache">La tâche à effectuer</label> -->
-                    <input type="text" name="tache" value="">
-                    <input type="submit" name="ajouter" value="Ajouter">
-                </form>
-            </fieldset>
+                <fieldset>
+                    <legend><strong>Ajouter une tâche</strong></legend>
+                    <form class="" action="formulaire.php" method="post">
+                        <!-- <label for="tache">La tâche à effectuer</label> -->
+                        <input type="text" name="tache" value="">
+                        <input type="submit" name="ajouter" value="Ajouter">
+                    </form>
+                </fieldset>
             </footer>
         </div>
     </body>

@@ -1,46 +1,18 @@
 [
     {
-        "nomtache": "coucou",
-        "fin": false
-    },
-    {
-        "nomtache": "beuuu",
-        "fin": false
-    },
-    {
-        "nomtache": "coucou",
-        "fin": false
-    },
-    {
-        "nomtache": "what",
+        "nomtache": "Course",
         "fin": true
     },
     {
-        "nomtache": "the",
+        "nomtache": "Boire",
         "fin": true
     },
     {
-        "nomtache": "fuck",
+        "nomtache": "Manger",
         "fin": true
     },
     {
-        "nomtache": "a",
-        "fin": false
-    },
-    {
-        "nomtache": "bbb",
-        "fin": false
-    },
-    {
-        "nomtache": "cccccccccccc",
-        "fin": false
-    },
-    {
-        "nomtache": "ddd",
-        "fin": false
-    },
-    {
-        "nomtache": "gt",
+        "nomtache": "piscine",
         "fin": true
     }
 ]

@@ -1,62 +1,46 @@
 [
     {
-        "nomtache": "lol",
+        "nomtache": "coucou",
         "fin": false
     },
     {
-        "nomtache": "test",
+        "nomtache": "beuuu",
         "fin": false
     },
     {
-        "nomtache": "lilolo",
+        "nomtache": "coucou",
         "fin": false
     },
     {
-        "nomtache": "lilolo",
+        "nomtache": "what",
+        "fin": true
+    },
+    {
+        "nomtache": "the",
+        "fin": true
+    },
+    {
+        "nomtache": "fuck",
+        "fin": true
+    },
+    {
+        "nomtache": "a",
         "fin": false
     },
     {
-        "nomtache": "lilolo",
+        "nomtache": "bbb",
         "fin": false
     },
     {
-        "nomtache": "cocorico",
+        "nomtache": "cccccccccccc",
         "fin": false
     },
     {
-        "nomtache": "cocorico",
+        "nomtache": "ddd",
         "fin": false
     },
     {
-        "nomtache": "test1",
-        "fin": false
-    },
-    {
-        "nomtache": "test2",
-        "fin": false
-    },
-    {
-        "nomtache": "test2",
-        "fin": false
-    },
-    {
-        "nomtache": "test2",
-        "fin": false
-    },
-    {
-        "nomtache": "test2",
-        "fin": false
-    },
-    {
-        "nomtache": "test2",
-        "fin": false
-    },
-    {
-        "nomtache": "test2",
-        "fin": false
-    },
-    {
-        "nomtache": "test2",
-        "fin": false
+        "nomtache": "gt",
+        "fin": true
     }
 ]

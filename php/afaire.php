@@ -11,6 +11,6 @@
                 }                                                                 // 'tache[]' en name pour..
             }                                                        // ..récupérer valeur checkée en tableau.
         ?>
-        <input type="submit" name="boutton" value="check" id="enregistrer" >
+        <input type="submit" name="boutton" value="<-~-Check-~-^" id="enregistrer" >
     </form>
 </fieldset>

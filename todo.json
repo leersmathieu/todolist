@@ -9,7 +9,7 @@
     },
     {
         "nomtache": "Manger",
-        "fin": false
+        "fin": true
     },
     {
         "nomtache": "Boire",
@@ -22,5 +22,9 @@
     {
         "nomtache": "Terminer le php",
         "fin": true
+    },
+    {
+        "nomtache": "Exercice de perfectionnement",
+        "fin": false
     }
 ]

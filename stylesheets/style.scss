@@ -12,7 +12,6 @@ body {
 
 .page {
     background-color: $border-color;
-    // padding: 15px;
     border: 6px solid $border-color;
     width: 30%;
     box-shadow: 0px 0px 5px 10px $border-color;
@@ -39,6 +38,8 @@ body {
         #enregistrer {
             display: flex;
             margin: 0 auto;
+            width: 30%;
+            margin-top: 10px;
         }
     }
 

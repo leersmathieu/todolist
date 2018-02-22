@@ -1,10 +1,14 @@
 [
     {
-        "nomtache": "Terminer cette todolist",
+        "nomtache": "void",
         "fin": false
     },
     {
-        "nomtache": "Manger",
+        "nomtache": "lol",
+        "fin": true
+    },
+    {
+        "nomtache": "coco",
         "fin": true
     }
 ]

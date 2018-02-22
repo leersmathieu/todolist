@@ -7,9 +7,9 @@ $jsonReceived = file_get_contents($jsonURL); //prendre le fichier
 $log = json_decode($jsonReceived, true); //décoder ( true = dans un tableau )
 
 // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ \\
-                                // FONCTION \\
+                                // SANITIZATION \\
 
-function sanitize($key, $filter=FILTER_SANITIZE_STRING){ //sanitization
+function sanitize($key, $filter=FILTER_SANITIZE_STRING){ 
 
     $sanitized_variable = null;
 
@@ -49,13 +49,14 @@ if (isset($_POST['ajouter']) AND end($log)['nomtache'] != $_POST['tache']){ //Si
 if (isset($_POST['boutton'])){ //si j'enregistre ( je check la case )
 
     $choix=sanitize($_POST['tache']); // je récupère les valeurs checkée ("tache[]") des inputs ( qui sont alors dans un tableau )
-    
+// + apelle de la fonction sanitize//
       
     
     for ($init = 0; $init < count($log); $init ++){         // Pour chaque ligne du tableau 
+
         if (in_array($log[$init]['nomtache'], $choix)){     // Je compare les valeurs checkée avec le tableau 
                                                     // --> Si valeur de "nomtache" se trouve dans le tableau $choix alors...
-          $log[$init]['fin'] = true;                // Je transforme False en True
+            $log[$init]['fin'] = true;                // Je transforme False en True
         }
     }
 
@@ -66,6 +67,28 @@ if (isset($_POST['boutton'])){ //si j'enregistre ( je check la case )
     $log = json_decode($json_enc, true);                //            ///
 
 }
+// var_dump($log);
+// echo "<br />";
+// if (isset($_POST['clean'])){
+
+//     for ($init = 0; $init < count($log); $init ++){          
+
+//         if ($log[$init]['fin'] == true){   
+                                                       
+//             unset(($log)[$init]);
+            
+                                                                // Fonction pour CLEAN l'archive qui ne fonctionne PAS xd
+//         }
+        
+//     }
+//     var_dump($log);
+//     $json_enc= json_encode($log, JSON_PRETTY_PRINT); 
+                                                      
+//     file_put_contents($jsonURL, $json_enc);   
+                                                   
+//     $log = json_decode($json_enc, true);                
+    
+// }
 
 // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ \\
 

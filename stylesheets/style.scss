@@ -12,7 +12,7 @@ body {
 
 .page {
     background-color: $border-color;
-    border: 6px solid $border-color;
+    border: $border;
     width: 30%;
     box-shadow: 0px 0px 5px 10px $border-color;
 
@@ -32,7 +32,7 @@ body {
         background-color: $div-color;
         padding: 15px;
         border: $border;
-        border-left: 6px solid $border-color;
+        border-left: $border;
         margin-top: 15px;
 
         #enregistrer {

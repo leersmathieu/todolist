@@ -1,7 +1,7 @@
 [
     {
         "nomtache": "void",
-        "fin": false
+        "fin": true
     },
     {
         "nomtache": "lol",
@@ -9,6 +9,22 @@
     },
     {
         "nomtache": "coco",
+        "fin": true
+    },
+    {
+        "nomtache": "coucou",
+        "fin": true
+    },
+    {
+        "nomtache": "test",
+        "fin": true
+    },
+    {
+        "nomtache": "te2",
+        "fin": true
+    },
+    {
+        "nomtache": "t3",
         "fin": true
     }
 ]

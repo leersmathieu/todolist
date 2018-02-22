@@ -14,3 +14,4 @@ HTML/SCSS/JSON
 - Le dossier PHP regroupe les différentes partie du formulaire
 - formulaire.php importe les autres pages PHP depuis le dossier PHP la ou c'est nécessaire
 - La feuille de style est rédigée en SCSS 
+- Base de Données en JSON

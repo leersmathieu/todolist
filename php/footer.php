@@ -1,3 +1,5 @@
+<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@ AJOUTER UNE TACHE @@@@@@@@@@@@@@@@@@@@@@@@@@-->
+
 <fieldset>
     <legend><strong>Ajouter une tâche</strong></legend>
     <form class="" action="formulaire.php" method="post">
@@ -6,3 +8,5 @@
         <input type="submit" name="ajouter" value="Ajouter" id="ajouter">
     </form>
 </fieldset>
+
+<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->

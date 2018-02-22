@@ -1,3 +1,5 @@
+<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@ TACHE A ACCOMPLIR @@@@@@@@@@@@@@@@@@@@@@@@@@-->
+
 <fieldset>
     <legend><strong>A faire</strong></legend>
     <form action="formulaire.php" method="post" name="formafaire">
@@ -5,7 +7,7 @@
             foreach ($log as $key => $value){
                                                 //récupération valeur tableau multi dimension
                 if ($value["fin"] == false){    // Si la valeur "fin" == false alors ...
-
+                        
                     echo "<input type='checkbox' name='tache[]' value='".$value["nomtache"]."'/>
                         <label for='choix'>".$value["nomtache"]."</label><br />"; // injecter input.//
                 }                                                                 // 'tache[]' en name pour..
@@ -14,3 +16,5 @@
         <input type="submit" name="boutton" value="check" id="enregistrer" >
     </form>
 </fieldset>
+
+<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->

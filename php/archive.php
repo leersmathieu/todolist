@@ -1,3 +1,5 @@
+<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@ ARCHIVE @@@@@@@@@@@@@@@@@@@@@@@@@@-->
+
 <fieldset>
     <legend><strong>Archive</strong></legend>
     <form action="formulaire.php" method="post" name="formchecked">
@@ -14,3 +16,5 @@
     <!-- <input type="submit" name="clean" value="clean" id="clean" > --> 
     </form>
 </fieldset>
+
+<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->

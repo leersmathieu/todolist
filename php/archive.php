@@ -7,7 +7,7 @@
                 if ($value["fin"] == true){
 
                     echo "<input type='checkbox' name='tache[]' value='".$value."'checked/>
-                        <label for='choix'>".$value["nomtache"]."</label><br />";
+                        <label class='line' for='choix'>".$value["nomtache"]."</label><br />";
                 }
             }
         ?>

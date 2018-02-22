@@ -1,4 +1,4 @@
-<fieldset> 
+<fieldset>
     <legend><strong>A faire</strong></legend>
     <form action="formulaire.php" method="post" name="formafaire">
         <?php
@@ -11,6 +11,6 @@
                 }                                                                 // 'tache[]' en name pour..
             }                                                        // ..récupérer valeur checkée en tableau.
         ?>
-        <input type="submit" name="boutton" value="check" >
+        <input type="submit" name="boutton" value="check" id="enregistrer" >
     </form>
 </fieldset>

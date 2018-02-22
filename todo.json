@@ -1,26 +1,26 @@
 [
     {
-        "nomtache": "Course",
-        "fin": true
+        "nomtache": "Finir le scss",
+        "fin": false
+    },
+    {
+        "nomtache": "Terminer la restructure",
+        "fin": false
+    },
+    {
+        "nomtache": "Manger",
+        "fin": false
     },
     {
         "nomtache": "Boire",
         "fin": true
     },
     {
-        "nomtache": "Manger",
-        "fin": true
-    },
-    {
-        "nomtache": "piscine",
-        "fin": true
-    },
-    {
-        "nomtache": "Coder",
+        "nomtache": "Fumer",
         "fin": false
     },
     {
-        "nomtache": "test",
-        "fin": false
+        "nomtache": "Terminer le php",
+        "fin": true
     }
 ]

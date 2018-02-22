@@ -15,9 +15,12 @@ require "php/funcvar.php";
     </head>
     <body>
         <div class="page">
+            <header>
+                <img src="assets/walpap.jpg" alt="Entendue sauvage"> 
+            </header>
             <section class="afaire">
                 <?php
-                    require "php/tache.php" ; 
+                    require "php/afaire.php" ; 
                 ?>
             </section>
             <section class="archive">

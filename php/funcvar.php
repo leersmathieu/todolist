@@ -15,7 +15,12 @@ function sanitize($key, $filter=FILTER_SANITIZE_STRING){ //sanitization
 
     if(isset($_POST['tache'])OR isset($_POST['boutton'])){
 
-        $sanitized_variable = filter_var($_POST[$key], $filter);
+        if(is_array($key)){                 // si la valeur est un tableau...
+        $sanitized_variable = filter_var_array($key, $filter);
+        }
+        else {                              // sinon ...
+        $sanitized_variable = filter_var($key, $filter);
+        }
     }
 
     return $sanitized_variable;

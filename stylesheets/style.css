@@ -1,0 +1,26 @@
+body {
+  background-color: beige;
+  display: flex;
+  justify-content: center;
+  margin-top: 15vh; }
+
+.page {
+  background-color: aqua;
+  padding: 15px;
+  border: 3px solid #333333; }
+  .page .afaire {
+    background-color: red;
+    padding: 15px;
+    border: 3px solid #333333; }
+  .page .archive {
+    background-color: red;
+    padding: 15px;
+    border: 3px solid #333333;
+    margin-top: 15px; }
+  .page .addtache {
+    background-color: red;
+    padding: 15px;
+    border: 3px solid #333333;
+    margin-top: 15px; }
+
+/*# sourceMappingURL=style.css.map */

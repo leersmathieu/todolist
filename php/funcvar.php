@@ -7,10 +7,26 @@ $jsonReceived = file_get_contents($jsonURL); //prendre le fichier
 $log = json_decode($jsonReceived, true); //décoder ( true = dans un tableau )
 
 // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ \\
+                                // FONCTION \\
+
+function sanitize($key, $filter=FILTER_SANITIZE_STRING){ //sanitization
+
+    $sanitized_variable = null;
+
+    if(isset($_POST['tache'])OR isset($_POST['boutton'])){
+
+        $sanitized_variable = filter_var($_POST[$key], $filter);
+    }
+
+    return $sanitized_variable;
+}
+
+// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ \\
+                                // CONDITION \\
 
 if (isset($_POST['ajouter']) AND end($log)['nomtache'] != $_POST['tache']){ //Si on appuie sur le boutton ajouter...
 
-    $add_tache = $_POST['tache']; //je récupère la valeur que je veux ajouter
+    $add_tache = sanitize($_POST['tache']); //je récupère la valeur que je veux ajouter
 
     $array_tache = array("nomtache" => $add_tache, // je la met dans un tableau
                          "fin" => false);
@@ -27,7 +43,7 @@ if (isset($_POST['ajouter']) AND end($log)['nomtache'] != $_POST['tache']){ //Si
 
 if (isset($_POST['boutton'])){ //si j'enregistre ( je check la case )
 
-    $choix=$_POST['tache']; // je récupère les valeurs checkée ("tache[]") des inputs ( qui sont alors dans un tableau )
+    $choix=sanitize($_POST['tache']); // je récupère les valeurs checkée ("tache[]") des inputs ( qui sont alors dans un tableau )
     
       
     
@@ -45,5 +61,7 @@ if (isset($_POST['boutton'])){ //si j'enregistre ( je check la case )
     $log = json_decode($json_enc, true);                //            ///
 
 }
+
+// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ \\
 
 ?>

@@ -1,8 +1,8 @@
-# todolist
+# Réaliser une todolist avec PHP et JSON
 
-Project démmaré à deux ( "Mathieu Leers" & "Damien Bernard" )  
+Project démmaré à deux ( "[Mathieu Leers](https://github.com/leersmathieu)" & "[Damien Bernard](https://github.com/damienbernardd)"   
 
-- "Damien" étant absent le project se poursuivra uniquement avec "Mathieu" sous l'oeil avisé de "Steve Van Essche"
+- "Damien" étant absent le project se poursuivra uniquement avec "Mathieu" sous l'oeil avisé de "[Steve Van Essche](https://github.com/Steve-VE)"
 
 ## Language
 

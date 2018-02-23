@@ -2,7 +2,7 @@
 
 <fieldset>
     <legend><strong>A faire</strong></legend>
-    <form action="formulaire.php" method="post" name="formafaire">
+    <form action="index.php" method="post" name="formafaire">
         <?php
             foreach ($log as $key => $value){
                                                 //récupération valeur tableau multi dimension

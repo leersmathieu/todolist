@@ -2,7 +2,7 @@
 
 <fieldset>
     <legend><strong>Archive</strong></legend>
-    <form action="formulaire.php" method="post" name="formchecked">
+    <form action="index.php" method="post" name="formchecked">
         <?php
             foreach ($log as $key => $value){
 
@@ -13,7 +13,7 @@
                 }
             }
         ?>
-    <!-- <input type="submit" name="clean" value="clean" id="clean" > --> 
+        <!-- <input type="submit" name="clean" value="clean" id="clean" > --> 
     </form>
 </fieldset>
 

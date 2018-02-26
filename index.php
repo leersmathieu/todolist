@@ -1,6 +1,6 @@
 <?php
 
-require "php/funcvar.php";
+require "php/funcvar.php"; // j'apelle ma page function et variable
 
 ?>
 
@@ -20,17 +20,17 @@ require "php/funcvar.php";
             </header>
             <section class="afaire">
                 <?php
-                    require "php/afaire.php" ; 
+                    require "php/afaire.php" ; // j'apelle ma page "afaire"
                 ?>
             </section>
             <section class="archive">
                 <?php
-                    require "php/archive.php" ; 
+                    require "php/archive.php" ; // j'apelle ma page "archive"
                 ?>
             </section>
             <footer class="addtache">
                 <?php
-                    require "php/footer.php" ; 
+                    require "php/footer.php" ;  // j'apelle ma page "footer"
                 ?>
             </footer>
         </div>

@@ -29,7 +29,7 @@ function sanitize($key, $filter=FILTER_SANITIZE_STRING){
 // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ \\
                                 // CONDITION \\
 
-if (isset($_POST['ajouter']) AND end($log)['nomtache'] != $_POST['tache']){ //Si on appuie sur le boutton ajouter...
+if (isset($_POST['ajouter']) AND end($log)['nomtache'] != $_POST['tache'] AND ctype_alnum($_POST['tache'])){ //Si on appuie sur le boutton ajouter...
 
     $add_tache = sanitize($_POST['tache']); //je récupère la valeur que je veux ajouter
 

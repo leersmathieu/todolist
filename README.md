@@ -10,8 +10,7 @@ HTML/SCSS/JSON
 
 ## Structure
 
-- la page formulaire.php représente l'index
-- Le dossier PHP regroupe les différentes partie du formulaire
-- formulaire.php importe les autres pages PHP depuis le dossier PHP la ou c'est nécessaire
+- Le dossier PHP regroupe les différentes parties du formulaire
+- index.php importe les autres pages PHP depuis le dossier PHP la où c'est nécessaire
 - La feuille de style est rédigée en SCSS 
 - Base de Données en JSON
